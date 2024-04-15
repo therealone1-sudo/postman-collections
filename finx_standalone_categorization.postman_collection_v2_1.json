@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "bfefc9d8-abcb-422b-bfd2-623375639b7e",
-		"name": "FinX Standalone Categorization",
+		"name": "finX Standalone Categorization",
 		"description": "The standalone categorization is very simple to interact with.\n\nSimply call the \"Send transactions to categorize\" and you'll get back categorized transactions.\n\nTo understand the relationship between categories use the \"Get category tree\" call.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "10164806",
@@ -16,6 +16,17 @@
 					"script": {
 						"exec": [
 							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"if (!pm.environment.get(\"client_username\") || !pm.environment.get(\"client_password\")) {",
+							"    throw new Error(\"Client credentials are missing: please reach out to your contact person or ask for client credentials via the form: https://qwist.com/contact\")",
+							"}"
 						],
 						"type": "text/javascript"
 					}
