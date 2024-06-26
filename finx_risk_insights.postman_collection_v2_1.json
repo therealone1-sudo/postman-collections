@@ -63,7 +63,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"state\": \"test123\",\n    \"redirect_uri\": \"http://localhost\",\n    \"language\": \"de\",\n    \"account_types\": [\"Giro account\"],\n    \"name\": \"Hans-Peter Qwister\",\n    \"reporting_period\": \"12\",\n    \"allow_multi_selection\": \"true\",\n    \"user_id\": \"{{user_id}}\"\n}\n",
+					"raw": "{\n    \"state\": \"test123\",\n    \"redirect_uri\": \"http://localhost\",\n    \"language\": \"de\",\n    \"account_types\": [\"Giro account\"],\n    \"name\": \"Hans-Peter Meier\",\n    \"reporting_period\": \"12\",\n    \"allow_multi_selection\": \"true\",\n    \"user_id\": \"{{user_id}}\"\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -135,7 +135,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"state\": \"test123\",\n    \"redirect_uri\": \"http://localhost\",\n    \"language\": \"de\",\n    \"account_types\": [\"Giro account\"],\n    \"name\": \"Hans-Peter Qwister\",\n    \"reporting_period\": \"12\",\n    \"allow_multi_selection\": \"true\"\n}\n",
+					"raw": "{\n    \"state\": \"test123\",\n    \"redirect_uri\": \"http://localhost\",\n    \"language\": \"de\",\n    \"account_types\": [\"Giro account\"],\n    \"name\": \"Hans-Peter Meier\",\n    \"reporting_period\": \"12\",\n    \"allow_multi_selection\": \"true\"\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
