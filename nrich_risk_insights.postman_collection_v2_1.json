@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "289d19f4-5832-4bdb-b1a5-4257c1631760",
-		"name": "finX Risk Insights",
+		"name": "nrich Risk Insights",
 		"description": "## Risk Insights\n\nFollow these steps to perform Risk Report generation using the widget:\n\n1. Execute `Create Widget URL for ongoing Report` or `Create Widget URL for onetime Report` requests to create widget link for onetime or ongoing risk report generation\n2. Open the URL that is returned in the `location` field in your browser and follow the instructions below in your browser:\n    1. Select \"Mockbank Decoupled/Embedded\"\n    2. Enter `figo01` and `654321` as username and password\n    3. Select \"Auth method by phone\"\n    4. Enter `123456` as OTP\n    5. Select accounts for the risk report\n3. You will be redirected to the callback URL. Copy the URL from your browser into the `callback_url` env. variable in the postman\n    \n\n- Execute the \"Exchange OAuth code\" request\n- Execute \"Get risk report\" - this will give you the risk report in respose\n    \n\nSee our Impementation Guide here for more details: [https://docs.qwist.com/docs/introduction-to-risk-insights](https://docs.qwist.com/docs/introduction-to-risk-insights)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "10164806",
